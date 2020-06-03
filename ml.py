@@ -49,6 +49,12 @@ def train_and_evaluate_classifier(X, yt, estimator, grid):
 
     return classifier
 
+'''
+
+POSSIBLE FEATURE ENGINEERING AND DATA CLEANING
+Add a simple feature to your code. (e.g. add regularization to your model, normalize the data, etc)
+'''
+
 X_train, X_test, y_train, y_test = split_dataset(train,100)
 train_and_evaluate_classifier
 
